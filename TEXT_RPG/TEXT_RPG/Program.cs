@@ -8,10 +8,12 @@
     // 6. 다음상황으로 전환
     internal class Program
     {
+
         // Git 연동
         // 간이기획과 구조설계
         static void Main(string[] args)
         {
+
             // TEXT_RPG 실습
             Game.Start(); // 시작시 필요한 작업
             Game.Run(); //  게임 돌아가는동안 계속 작업
