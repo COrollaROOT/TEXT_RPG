@@ -58,6 +58,9 @@ namespace TEXT_RPG
             while (gameOver == false) // 게임오버(gameOver)가 (같다 == )거짓(false)이면,
             // 게임오버 될때까지(true) 계속(반복 : while 반복문) 작동
             {
+
+                Console.Clear(); // 콘솔창 지우고 다시 새창
+
                 curScene.Render(); // 씬 보여주기
                 curScene.Choice(); // 선택지
                 curScene.Input(); // 입력받기
